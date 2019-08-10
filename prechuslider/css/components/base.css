@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-weight: 400;
+  color:#000000;
+  line-height: 1.5;
+  font-family: 'SegoeWPN';
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  box-sizing: content-box;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+
+p, ul, ol, figure {
+  margin: 0 0 10px 0;
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+img {
+  /* width: 100%; */
+  object-fit: cover;
+  /* height: auto; */
+}
+
+.logo {
+  display: inline-block;
+}
+.logo-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background:  #5094f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 42.4px;
+line-height: 1.2;
+font-weight: 300;
+letter-spacing: 0.01em;
+color: #000000;
+}
+/* .iphone { */
+  width: 345px;
+  height: 436px;
+}
+.title {
+  font-family: SegoeWP;
+font-size: 42.4px;
+line-height: 44px;
+font-weight: 300;
+color: #ffffff;
+}
+.title-description {
+  margin-left: 107px;
+}
+.description {
+  font-family: SegoeWP;
+font-size: 26.4px;
+line-height: 44px;
+font-weight: 300;
+color: #795548;;
+}
+.line {
+  background: #e5e5e5;
+  height: 1px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+p {
+  color: white;
+}

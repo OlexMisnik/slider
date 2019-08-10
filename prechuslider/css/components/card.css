@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+}
+
+.card-image {
+
+}
+
+.card-description {
+
+}
+
+.card-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.title-card {
+  color: #828486;
+  font-size: 42.4px;
+line-height: 44px;
+font-weight: 400;
+color: #6f7173;
+}
+.descript-card {
+  font-size: 15.4px;
+line-height: 36px;
+font-weight: 300;
+color: #909090;
+}
+.img-card {
+  width: 371px;
+  height: 279pxx;
+}
