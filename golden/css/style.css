@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../img/first-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.header {    
+    padding-top: 50px;
+    padding-bottom: 205px;
+    margin: 0 auto;
+}
+
+.menu-list {
+    margin-right: 40px;
+}
+
+.menu-list:last-child {
+    margin-right: 0;
+}
+
+.link {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-list a {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+.logo-link {
+    padding: 10px;
+}
+
+.menu-list a:hover,
+.menu-list a:focus {
+    color: #fed136;
+}
+
+.section {
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 270px;
+}
+
+/* .cover {
+    padding-bottom: 160px;
+} */
+
+.subtitle-cover {
+    font-family: 'Arial';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.title-cover {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.btn-cover{
+    width: 240px;
+    height: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fed136;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+ 
+.services {
+    padding-top: 120px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.card-style {
+    border: 0;
+    text-align: center;
+    
+}
+
+.title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.title-card {
+    font-size: 15px;
+}
+
+.subtitle {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+    padding-bottom: 80px;
+}
+
+.text {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.6em;
+}
+
+.icon{
+    max-width: 74px;
+    margin-bottom: 25px;    
+    margin: 0 auto;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../img/background_356.jpg);    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.input-size {
+    margin-bottom: 22px;
+}
+.footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 41px;
+    height: 40px;
+    float: left;
+    background: black;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: white;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
